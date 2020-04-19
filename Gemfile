@@ -62,6 +62,10 @@ gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data'
 
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap-sass'
+
+gem 'slim-rails'
+
+gem 'html2slim'
