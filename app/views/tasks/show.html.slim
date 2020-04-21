@@ -1,6 +1,6 @@
 h1 タスクの詳細
 
-.nav.justyfuy-content-end
+.nav.justify-content-end
   = link_to '一覧', tasks_path, class: 'nav-link'
 table.table.table-hover
   tbody
@@ -21,3 +21,4 @@ table.table.table-hover
       td = @task.updated_at
 
 = link_to '編集', edit_task_path, class: 'btn btn-primary mr-3'
+= link_to '削除', @task, method: :delete, data: { confirm: "タスク「#{@task.name}」を削除します。よろしいですか？"}, class:'btn btn-danger'
