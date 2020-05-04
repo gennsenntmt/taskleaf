@@ -71,3 +71,5 @@ gem 'bootstrap-sass'
 gem 'slim-rails'
 
 gem 'html2slim'
+
+gem 'ransack'
