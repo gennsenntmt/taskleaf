@@ -73,3 +73,5 @@ gem 'slim-rails'
 gem 'html2slim'
 
 gem 'ransack'
+
+gem 'kaminari'
