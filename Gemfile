@@ -75,3 +75,5 @@ gem 'html2slim'
 gem 'ransack'
 
 gem 'kaminari'
+
+gem 'sidekiq'
